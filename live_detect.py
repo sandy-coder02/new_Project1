@@ -3,7 +3,7 @@ import cv2
 
 #Load the Cascade Classifier File
 face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml') 
-
+ 
 # Define a video capture object
 vid = cv2.VideoCapture(0)
 
